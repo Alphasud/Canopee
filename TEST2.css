@@ -1,0 +1,221 @@
+header {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  transform-style: inherit;
+  z-index: -1;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: block;
+  background: url(https://gdurl.com/WRQi) top center;
+  background-size: cover;
+  transform: translateZ(-1px) scale(2.1);
+  min-height: 100%;
+  z-index: -2;
+}
+
+#logo-bonheur{
+  padding-top: 100px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+
+.texte-produit{
+  font-family: 'Didot', sans-serif;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+#texte1{
+  padding-top: 0px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+.ligne-horizontale-texte{
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+#texte2{
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+#logo-trio-bonheur{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#energie{
+  font-size: 25px;
+  animation-name: energie;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes energie {
+  0% {transform: translateX(-5px);}
+  25% {transform: translateY(-5px);}
+  50% {transform: translateX(5px);}
+  75% {transform: translateY(5px);}
+  100% {transform: translateX(-5px);}
+}
+#relaxation{
+  font-size: 25px;
+  animation-name: relaxation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes relaxation {
+  0% {transform: translateY(0px);}
+  25% {transform: translateY(10px);}
+  50% {transform: translateY(0px);}
+  75% {transform: translateY(-10px);}
+  100% {transform: translateY(0px);}
+}
+#concentration{
+  font-size: 25px;
+  animation-name: concentration;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes concentration {
+  0% {transform: translateX(0px);}
+  25% {transform: translateX(10px);}
+  50% {transform: translateX(0px);}
+  75% {transform: translateX(-10px);}
+  100% {transform: translateX(0px);}
+}
+.column-logo{
+  padding: 10px;
+}
+.column-logo p {
+  padding-top: 10px;
+  font-size: 12px;
+}
+.sachet50100g{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.logotype h1{
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+#couleurs h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+#logo-bonheur2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#logo-bonheur3{
+  padding-top:80px;
+  padding-bottom: 90px;
+}
+.ligne-horizontale{
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+.column-couleur{
+  padding: 0px;
+  padding-top: 10px;
+  flex: 16%;
+  font-size: 10px;
+}
+#typo{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#typo h1{
+  font-size: 20px;
+}
+#row-typo{
+  padding-left:5px;
+}
+.column-didot{
+  font-family: 'Didot', sans-serif;;
+  flex: 50%;
+  padding:10px;
+}
+.column-montserrat{
+  font-family: 'Montserrat', sans-serif;
+  flex: 50%;
+  padding:10px;
+}
+#mock-up-packaging{
+  padding-top: 75px;
+}
+#carte-de-visite{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+/*************************************************************
+  SECTIONS
+**************************************************************/
+section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  transform-style: inherit;
+}
+
+.section1 {
+  background: url(https://picsum.photos/g/1920/1080?random) top center;
+  /*background-image: linear-gradient(#CBD2BA, #9AD1CB);*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  box-shadow: 0 0 20px #333;
+  z-index: 1;
+}
+
+.section2::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: block;
+  background: url(https://picsum.photos/g/1920/1080?random) top center;
+  background-size: cover;
+  transform: translateZ(-.5px) scale(1.6);
+  z-index: -1;
+}
+
+/*************************************************************
+  BASIC STYLES
+**************************************************************/
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  color: #FFF;
+}
