@@ -3,9 +3,9 @@ Voici un espace sur lequel je posterai les propositions de pages.
 
 ### Test page produit "Bonheur"
 
-[TEST1](produitbonheur.html)
+[Fond Gradient Linéaire](BONHEUR_FondGradient.html)
 
-[TEST2](TEST2produitbonheur.html)
+[Fond Gradient avec Ligne](BONHEUR_FondLigne.html)
 
 
 ### Test page produit "Belén"
