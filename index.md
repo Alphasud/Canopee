@@ -1,7 +1,7 @@
 ## Bonjour Canopee
 Voici un espace sur lequel je posterai les propositions de pages.
 
-### Test page produit "Bonheur"
+### Page produit "Bonheur"
 
 [BONHEUR](BONHEUR_1.html)
 
