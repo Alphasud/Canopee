@@ -76,7 +76,11 @@ header {
     display: flex;
     padding: 10px;
   }
+  .product-body{
+    background-attachment: scroll;
+  }
   #logo-bonheur {
+    padding-top: 200px;
     width: 100%;
   }
   .column-couleur {
