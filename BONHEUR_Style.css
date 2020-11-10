@@ -27,7 +27,6 @@ body {
 header {
   min-height: 100vh;
   background-image: url("images/forêt.jpg");
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +55,6 @@ header {
   0% {
     transform: translateY(-200px);
   }
-  
   50% {
     transform: translateY(20px);
   }
@@ -81,6 +79,9 @@ header {
     padding-top: 200px;
     width: 100%;
   }
+  #logo-anim{
+  width: 70% !important;
+}
   .column-couleur {
     flex: 100%;
     padding: 0px;
@@ -96,13 +97,31 @@ header {
     padding-left: 4% !important;
   }
   #paragraphe {
-    padding-left: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
+  #texte1 {
+    font-size: 20px !important;
+  }
+  #texte2 {
+    font-size: 20px !important;
+  }
+   .ligne-horizontale-texte {
+  height: 1px;
+  background-color: white;
+  width: 80% !important;
+}
+  .ligne-horizontale {
+  height: 1px;
+  background-color: white;
+  width: 70% !important;
+}
+
 }
 
 
 #paragraphe {
-  padding-left: 105px;
+  padding-left: 80px;
 }
 #texte1 {
   font-family: "Didot", sans-serif;
@@ -114,6 +133,7 @@ header {
   height: 1px;
   background-color: white;
   width: 100%;
+  display: flex;
 }
 #texte2 {
   font-family: "Didot", sans-serif;
@@ -121,9 +141,12 @@ header {
   padding-top: 30px;
 }
 #logo-trio-bonheur {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 0px;
   text-align: center;
+}
+#logo-anim{
+  width: 100%;
 }
 
 .column-logo {
@@ -147,29 +170,40 @@ header {
   padding-top: 100px;
   padding-bottom: 15px;
 }
-.logotype h1 {
+.logotype {
   padding-top: 100px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
+  padding-left: 0px;
 }
-#couleurs h1 {
+#couleurs {
+  padding-left: 0px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
 }
-#logo-bonheur2 {
+#liste-couleurs{
+  padding-top: 20px;
+}
+.logo-bonheur2 {
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
+  display: flex;
 }
-#logo-bonheur3 {
+.logo-bonheur3 {
   padding-top: 80px;
   padding-bottom: 90px;
+  width: 50%;
+  display: flex;
 }
 .ligne-horizontale {
-  height: 2px;
+  height: 1px;
   background-color: white;
   width: 100%;
+  display: flex;
 }
 .column-couleur {
   padding: 0px;
@@ -177,25 +211,29 @@ header {
   flex: 16%;
   font-size: 10px;
 }
+
 #typo {
-  font-family: "Montserrat", sans-serif;
   padding-top: 50px;
-  padding-bottom: 30px;
-}
-#typo h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  border-bottom: 2px solid white;
+  padding-left: 0px;
+  border-bottom: 1px solid white;
+  display: flex;
 }
-.column-typo {
+.column {
   flex: 50%;
+  padding: 0px;
 }
 #typo-montserrat{
+  padding: 0px;
   font-family: "Montserrat", sans-serif;
 }
 #typo-didot{
   font-family: "Didot", sans-serif;
+  padding: 0px;
 }
 #row-typo{
+  padding-top: 40px;
   padding-left: 10%;
 }
 
