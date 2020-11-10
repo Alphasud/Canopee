@@ -1,0 +1,188 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  padding-left : 5vw;
+  padding-right : 5vw;
+  background-color: black;
+}
+
+body {
+  color: white;
+  background-color: #ffff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  padding:10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+header{
+  min-height: 100vh;
+  background-image: url("https://gdurl.com/WRQi");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-body {
+  min-height: 100vh;
+  /*background-image: url("https://gdurl.com/XOZS");*/
+  background-image: url("https://gdurl.com/2Gx9");
+  background-attachment: fixed ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo-bonheur{
+  padding-top: 200px;
+  width: 50%;
+  display: flex;
+  animation-name: animationlogo;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animationlogo {
+  0% {transform: translateY(-200px);}
+  50% {transform: translateY(-100px);}
+  80% {transform: translateY(20px);}
+  100% {transform: translateY(-0px);}
+}
+
+@media screen and (max-width: 800px) {
+html {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row{
+    display: flex;
+    padding:10px;
+  }
+#logo-bonheur{
+  width: 100%;
+}
+.column-couleur{
+  flex: 100%;
+  padding: 0px;
+  padding-top: 10px;
+}
+.column-couleur p{
+  font-size: 10px;
+}
+#texte1{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+#texte2{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+}
+#texte1{
+  font-family: 'Didot', sans-serif;
+  font-size: 25px;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+}
+.ligne-horizontale-texte{
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+#texte2{
+  font-family: 'Didot', sans-serif;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 150px;
+}
+#logo-trio-bonheur{
+  padding-top: 130px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.column-logo{
+  padding: 10px;
+}
+.column-logo p {
+  padding-top: 10px;
+  font-size: 12px;
+}
+#sachet50100g{
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+.logotype h1{
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+#couleurs h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+#logo-bonheur2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#logo-bonheur3{
+  padding-top:80px;
+  padding-bottom: 90px;
+}
+.ligne-horizontale{
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+.column-couleur{
+  padding: 0px;
+  padding-top: 10px;
+  flex: 16%;
+  font-size: 10px;
+}
+#typo{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#typo h1{
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+#row-typo{
+  padding-left:5px;
+}
+.column-didot{
+  font-family: 'Didot', sans-serif;;
+  flex: 50%;
+  padding:10px;
+}
+.column-montserrat{
+  font-family: 'Montserrat', sans-serif;
+  flex: 50%;
+  padding:10px;
+}
+.mock-up-packaging{
+  padding-top: 75px;
+}
+
+
+
+
+
+
+
+
