@@ -32,6 +32,8 @@
     />
     
     <link href="BONHEUR_Style.css" rel="stylesheet" />
+    
+    <script src="https://kit.fontawesome.com/6e42ac1abc.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -179,9 +181,26 @@
         style="width: 100%"
       />
     </section>
+    <button onclick="topFunction()" id="myBtn" class="fas fa-home" title="Acceuil"></button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        mybutton.style.display = "block";
+      } else {
+         $( "#myBtn" ).fadeOut( "slow");
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
   </body>
 </html>
