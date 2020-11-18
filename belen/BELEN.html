@@ -45,6 +45,25 @@
             <img src="img/mockup_side.png" alt="" class="third__mockup">
         </section>
     </main>
+    <button onclick="topFunction()" id="bouton-retour" class="fas fa-times-circle fa-2x" title="Acceuil"></button>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    var mybutton = document.getElementById("bouton-retour");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        mybutton.style.display = "block";
+      } else {
+         $("#bouton-retour").fadeOut("slow");
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
     
 </body>
 </html>
