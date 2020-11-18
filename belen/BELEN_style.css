@@ -403,7 +403,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .third {
       top: 180rem;
-      height: 30rem; } }
+      height: 25rem; } }
   .third__double-leaf {
     position: absolute;
     width: 60%;
