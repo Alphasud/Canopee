@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Charles Denneulin" />
+    <title>Canopée | Belén</title>
+    <link rel="icon" href="img/Logo-belén.png" type="image/icon type"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e42ac1abc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__background">
+             <div class="header__logo-box"> 
+            <img src="img/logo-belén.png" alt="Logo Belén" class="header__logo">
+        </div>
+        </div>
+    </header>
+    <main class="background">
+
+        <section class="first">
+            <img src="img/logo-belén.png" alt="Logo Belén" class="first__logo">
+            <p class="first__paragraph--1">Belén est une nouvelle<br />marque de cosmétiques<br />venue du Moyen-Orient,<br />dont les produits s'inspirent<br />de recettes naturelles<br />millénaires, afin de<br />sublimer la beauté<br />naturelle de la peau.</p>
+            <p class="first__paragraph--2">La marque utilise du CBD<br />et des produits naturels<br />issus de<br />l'agriculture biologique,<br />valorisé par la science<br />et des technologies<br />de pointe.</p>
+        </section>
+        <section class="composition">  
+            <div class="photos">
+                <div class="square"><img src="img/Capture d’écran 2020-11-18 à 19.16.42.png" alt="" width="100%"></div>
+                <div class="leaf"><img src="img/feuille_dino.png" alt="Image de feuille" width="100%"></div>
+                <div class="lid"><img src="img/mockup_top_shot.png" alt="Photo du dessus du couvercle" width="100%"></div>
+                <div class="fig-full"><img src="img/fig_full.png" alt="Photo de figue entière" width="100%"></div>
+                <div class="fig-half"><img src="img/fig_half.png" alt="Photo de figue coupée en deux" width="100%"></div>
+                <div class="palm"><img src="img/palmier.png" alt="Photo de palmier" width="100%"></div>
+                <div class="text1"><h1 class="heading1">Une tradition</h1></div>
+                <div class="text2"><h1 class="heading2">millénaire</h1></div>
+                <div class="container">
+                    <div class="double-leaf"><img src="img/feuille_double.png" alt="Photo de feuilles" width="100%"></div>
+                    <div class="mockup"><img src="img/mockup_side.png" alt="Photo du produit vu de côté" width="100%"></div>
+                </div>   
+            </div> 
+        </section>     
+    </main>
+    <button onclick="topFunction()" id="bouton-retour" class="fas fa-times-circle fa-2x" title="Acceuil"></button>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    var mybutton = document.getElementById("bouton-retour");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        mybutton.style.display = "block";
+      } else {
+         $("#bouton-retour").fadeOut("slow");
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+</body>
+</html>
