@@ -27,7 +27,7 @@ body {
 
 .background {
   background-color: #073D39;
-  background-image: url(/img/pattern_fond.png);
+  background-image: url(img/pattern_fond.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -103,7 +103,7 @@ body {
   .header__background {
     height: 100%;
     background-color: #073D39;
-    background-image: url(/img/pattern_fond_logo_top.png);
+    background-image: url(img/pattern_fond_logo_top.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
