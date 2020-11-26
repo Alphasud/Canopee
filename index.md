@@ -11,3 +11,5 @@ Voici un espace sur lequel je posterai les propositions de pages.
 
 ### Test page produit "Vidid"
 
+[VIVID](vivid/vivid.html)
+
