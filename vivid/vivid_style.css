@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+::selection {
+  background-color: #6b359d;
+  color: #D5035E; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 20vw;
+  background-color: #333333 }
+  @media only screen and (max-width: 56.25em) {
+    body {
+      padding: 0;
+      margin: 0 0; } }
+
+
+ .header {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(1, 1fr);
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+ }
+
+ .background {
+   width: 100%;
+   grid-area: 1 / 1 / 2 / 2;
+ }
+
+ .main {
+   background-image: url(img/fond_bas.png);
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: 1fr 2fr;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+ }
+
+ .logo {
+   width: 100%;
+   grid-area: auto;
+ }
+
+ .bottles {
+   width: 100%;
+   grid-area: auto;
+ }
+
+ .footer {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(1, 1fr);
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+ }
+ .footer__logo {
+   width: 100%;
+   grid-area: 1 / 1 / 2 / 2;
+ }
