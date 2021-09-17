@@ -1,15 +1,14 @@
-## Bonjour Canopee
-Voici un espace sur lequel je posterai les propositions de pages.
+## Intégration de trois maquettes pour des marques fictives :
 
 ### Page produit "Bonheur"
 
 [BONHEUR](BONHEUR_1.html)
 
-### Test page produit "Belén"
+### Page produit "Belén"
 
 [BELEN](belen/BELEN.html)
 
-### Test page produit "Vidid"
+### Page produit "Vidid"
 
 [VIVID](vivid/vivid.html)
 
